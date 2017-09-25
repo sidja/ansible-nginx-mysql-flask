@@ -8,7 +8,6 @@
   become_method: sudo
 
   roles:
-    - common
     - mysql
-    - nginx
     - flask
+    - nginx
